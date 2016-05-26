@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configuration>
+<screen>
+	<width>640</width>
+	<height>480</height>
+	<bgcolor>0x231f20</bgcolor>
+	<bpp>32</bpp>
+</screen> 
+<text>
+	<size>12</size>
+	<bgcolor>0x231f20</bgcolor>
+	<fgcolor>0xFFFFFF</fgcolor>
+	<font conments="the maximum length is less than 100">consola.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Hello, world!</content>
+	<start>
+		<x>0</x>
+		<y>0</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<line>
+	<start>
+		<x>10</x>
+		<y>10</y>
+	</start>
+	<length>20</length>
+	<width>1</width>
+	<color>0xD4D0C8</color>
+	<line_type value="0 means vertical line, 1 means horizontal line!">1</line_type>
+</line>
+
+<ellipse>
+	<center>
+		<x>12</x>
+		<y>12</y>
+	</center>
+	<xradius>14</xradius>
+	<yradius>20</yradius>
+	<color>0xD4D0C8</color>
+	<fill>0</fill>
+</ellipse>
+
+<image>
+	<file comments="MaxLen less than 100 chars">drumTm_log.bmp</file>
+	<path comments="Maxlen less than 200 chars">.//images//</path>
+	<width>120</width>
+	<height>50</height>
+	<start>
+		<x>20</x>
+		<y>30</y>
+	</start>
+</image>
+
+</configuration>

@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf8"?>
+<configuration>
+<screen>
+	<width>975</width>
+	<height>580</height>
+	<bgcolor>0xFFFFFF</bgcolor>
+	<bpp>32</bpp>
+	<fullscr>0</fullscr> <!-- 1:fullscreen or 0:window -->
+</screen>
+<!-- Explanation Area -->
+<rectangle>
+	<start>
+		<x>5</x>
+		<y>5</y>
+	</start>
+	<height>570</height>
+	<width>230</width>
+	<color>0x2D6E32</color>
+	<fill>1</fill>
+</rectangle>
+
+<!-- System state Area  -->
+<rectangle>
+	<start>
+		<x>240</x>
+		<y>5</y>
+	</start>
+	<height>570</height>
+	<width>730</width>
+	<color>0xFFFFFF</color>
+	<fill>1</fill>
+</rectangle>
+
+<!-- text: Recv Threads -->
+<text>
+	<size>15.5</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Recv Threads</content>
+	<start>
+		<x>250</x>
+		<y>55</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- Recv Threads  -->
+<rectangle>
+	<start>
+		<x>240</x>
+		<y>50</y>
+	</start>
+	<height>300</height>
+	<width>225</width>
+	<color>0x2D6E32</color>
+	<fill>1</fill>
+</rectangle>
+
+<!-- text: Recv Threads -->
+<text>
+	<size>15.5</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Recv Threads</content>
+	<start>
+		<x>250</x>
+		<y>55</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- Recv Queues  -->
+<rectangle>
+	<start>
+		<x>460</x>
+		<y>50</y>
+	</start>
+	<height>300</height>
+	<width>140</width>
+	<color>0x2D2200</color>
+	<fill>1</fill>
+</rectangle>
+
+<!-- text: Recv Queues -->
+<text>
+	<size>15.5</size>
+	<bgcolor>0x2D2200</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Recv Queues</content>
+	<start>
+		<x>465</x>
+		<y>55</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- Decoder Threads  -->
+<rectangle>
+	<start>
+		<x>605</x>
+		<y>50</y>
+	</start>
+	<width>225</width>
+	<height>300</height>
+	<color>0x2D6E32</color>
+	<fill>1</fill>
+</rectangle>
+
+<!-- text:  Decoder Threads -->
+<text>
+	<size>15.5</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Decoder Threads</content>
+	<start>
+		<x>610</x>
+		<y>55</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- Decoded Queues  -->
+<rectangle>
+	<start>
+		<x>830</x>
+		<y>50</y>
+	</start>
+	<height>300</height>
+	<width>140</width>
+	<color>0x2D2200</color>
+	<fill>1</fill>
+</rectangle>
+<!-- text: Decoded Queues -->
+<text>
+	<size>15.5</size>
+	<bgcolor>0x2D2200</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Decoded Queues</content>
+	<start>
+		<x>835</x>
+		<y>55</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- Mixer Threads  -->
+<rectangle>
+	<start>
+		<x>240</x>
+		<y>355</y>
+	</start>
+	<width>225</width>
+	<height>220</height>
+	<color>0x2D6E32</color>
+	<fill>1</fill>
+</rectangle>
+<!-- text:  Mixer Threads -->
+<text>
+	<size>15.5</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Mixer Threads</content>
+	<start>
+		<x>245</x>
+		<y>360</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- Mixed Queues  -->
+<rectangle>
+	<start>
+		<x>460</x>
+		<y>355</y>
+	</start>
+	<width>140</width>
+	<height>220</height>
+	<color>0x2D2200</color>
+	<fill>1</fill>
+</rectangle>
+<!-- text: Mixed Queues -->
+<text>
+	<size>15.5</size>
+	<bgcolor>0x2D2200</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Mixed Queues</content>
+	<start>
+		<x>465</x>
+		<y>360</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- Encoder Threads  -->
+<rectangle>
+	<start>
+		<x>605</x>
+		<y>355</y>
+	</start>
+	<width>225</width>
+	<height>105</height>
+	<color>0x2D6E32</color>
+	<fill>1</fill>
+</rectangle>
+<!-- text:  Encoder Threads -->
+<text>
+	<size>15.5</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Encoder Threads</content>
+	<start>
+		<x>610</x>
+		<y>360</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+<!-- Encoded Queues  -->
+<rectangle>
+	<start>
+		<x>830</x>
+		<y>355</y>
+	</start>
+	<height>105</height>
+	<width>140</width>
+	<color>0x2D2200</color>
+	<fill>1</fill>
+</rectangle>
+<!-- text: Encoded Queues -->
+<text>
+	<size>15.5</size>
+	<bgcolor>0x2D2200</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Encoded Queues</content>
+	<start>
+		<x>835</x>
+		<y>360</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- Sender module -->
+<!-- Sender Threads  -->
+<rectangle>
+	<start>
+		<x>605</x>
+		<y>465</y>
+	</start>
+	<width>225</width>
+	<height>110</height>
+	<color>0x2D6E32</color>
+	<fill>1</fill>
+</rectangle>
+<!-- text:  Encoder Threads -->
+<text>
+	<size>15.5</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Sender Threads</content>
+	<start>
+		<x>610</x>
+		<y>470</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+<!-- Sender Queues  -->
+<rectangle>
+	<start>
+		<x>830</x>
+		<y>465</y>
+	</start>
+	<height>110</height>
+	<width>140</width>
+	<color>0x2D2200</color>
+	<fill>1</fill>
+</rectangle>
+
+<!-- text: Multimedia -->
+<text>
+	<size>26</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Multimedia</content>
+	<start>
+		<x>75</x>
+		<y>10</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- text: Mixer Server -->
+<text>
+	<size>26</size>
+	<bgcolor>0xFFFFFF</bgcolor>
+	<fgcolor>0x2D6E32</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Mixer Server</content>
+	<start>
+		<x>242</x>
+		<y>10</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- text: chinese character UTF8 -->
+<text>
+	<size>20</size>
+	<bgcolor>0xFFFFFF</bgcolor>
+	<fgcolor>0x2D6E32</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">    ---  Server State Monitor --- </content>
+	<start>
+		<x>420</x>
+		<y>20</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<text>
+	<size>16</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xD7EDB6</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Function Specifications:</content>
+	<start>
+		<x>20</x>
+		<y>50</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- text W0: -->
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFFFFFF</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">W0: Waiting state.</content>
+	<start>
+		<x>25</x>
+		<y>75</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- text B1 -->
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFFFFFF</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">T1: Take one node from a queue.</content>
+	<start>
+		<x>25</x>
+		<y>95</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- text R2 -->
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFFFFFF</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">W2: Working state.</content>
+	<start>
+		<x>25</x>
+		<y>115</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- text T3 -->
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFFFFFF</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">P3: Put a node into the next queue</content>
+	<start>
+		<x>25</x>
+		<y>135</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- text R4 -->
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFFFFFF</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">E4: The operation ends.</content>
+	<start>
+		<x>25</x>
+		<y>155</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- text T5 -->
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFFFFFF</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">There are five modules: Receive,</content>
+	<start>
+		<x>25</x>
+		<y>175</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- text E6 -->
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFFFFFF</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Decoder,  Mixer,  Encoder  and </content>
+	<start>
+		<x>25</x>
+		<y>195</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFFFFFF</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Sender modules. Every module has</content>
+	<start>
+		<x>25</x>
+		<y>215</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFFFFFF</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">its related queues.</content>
+	<start>
+		<x>25</x>
+		<y>235</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+<!--
+<line>
+	<start>
+		<x>6</x>
+		<y>270</y>
+	</start>
+	<length>228</length>
+	<width>1</width>
+	<color>0xD7EDB6</color>
+	<line_type value="0 means vertical line, 1 means horizontal line!">1</line_type>
+</line>
+<line>
+	<start>
+		<x>6</x>
+		<y>270</y>
+	</start>
+	<length>228</length>
+	<width>1</width>
+	<color>0xD7EDB6</color>
+	<line_type value="0 means vertical line, 1 means horizontal line!">1</line_type>
+</line>
+-->
+
+<!-- text Memo -->
+
+<text>
+	<size>16</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xD7EDB6</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">MEMO:</content>
+	<start>
+		<x>20</x>
+		<y>275</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xD7EDB6</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">The progam project is designed</content>
+	<start>
+		<x>25</x>
+		<y>300</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xD7EDB6</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">for the multi-thread server.</content>
+	<start>
+		<x>25</x>
+		<y>320</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xD7EDB6</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">In additional, the prototype of the</content>
+	<start>
+		<x>25</x>
+		<y>340</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xD7EDB6</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">demo can be easily modified</content>
+	<start>
+		<x>25</x>
+		<y>360</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xD7EDB6</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">according to the specific targets.</content>
+	<start>
+		<x>25</x>
+		<y>380</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xD7EDB6</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">We hope that our DrumTm can be</content>
+	<start>
+		<x>25</x>
+		<y>400</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xD7EDB6</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">one of the best developer teams</content>
+	<start>
+		<x>25</x>
+		<y>420</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xD7EDB6</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">in the world. :)</content>
+	<start>
+		<x>25</x>
+		<y>440</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<text>
+	<size>14</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xD7EDB6</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Rui Su, Zhiwei Yan</content>
+	<start>
+		<x>100</x>
+		<y>480</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<text>
+	<size>13</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xD7EDB6</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Jan 1, 2011</content>
+	<start>
+		<x>100</x>
+		<y>500</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+
+
+
+<!-- text: Contack us-->
+<text>
+	<size>10</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Contact us:</content>
+	<start>
+		<x>25</x>
+		<y>535</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!-- text: Contack us-->
+<text>
+	<size>10</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">jerod.yan AT gmail.com</content>
+	<start>
+		<x>100</x>
+		<y>550</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+<!-- text: Contack us-->
+<text>
+	<size>10</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFCFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">ssurui AT gmail.com</content>
+	<start>
+		<x>100</x>
+		<y>535</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+
+<!--ellipse>
+	<center>
+		<x>447</x>
+		<y>300</y>
+	</center>
+	<xradius>150</xradius>
+	<yradius>150</yradius>
+	<color>0x35883B</color>
+	<fill>1</fill>
+</ellipse --> 
+
+
+<image>
+	<file comments="MaxLen less than 100 chars">drumtm.bmp</file>
+	<path comments="Maxlen less than 200 chars">.//images//</path>
+	<width>72</width>
+	<height>30</height>
+	<start>
+		<x>870</x>
+		<y>15</y>
+	</start>
+	<color_enable>0</color_enable>
+	<color_key>0x000000</color_key>
+</image>
+
+<text>
+	<size>22</size>
+	<bgcolor>0x2D2200</bgcolor>
+	<fgcolor>0xD7EDB6</fgcolor>
+	<font conments="the maximum length is less than 100">font_1.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">v0.1</content>
+	<start>
+		<x>900</x>
+		<y>530</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text>
+</configuration>

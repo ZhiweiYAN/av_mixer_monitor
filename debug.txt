@@ -1,0 +1,11 @@
+file ./msm
+set args 192.168.254.135 19000
+#break threads_ui_manager.c:109
+#break queues_ui_manager.c:26
+#break queues_ui_manager.c:117
+#break msm_main.c:88
+#break network_manager.c:46
+#break network_manager.c:226
+#break msm_main.c:128
+break msm_main.c:62
+run

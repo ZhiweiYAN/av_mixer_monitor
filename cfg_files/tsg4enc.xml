@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf8"?>
+<wtsgconfiguration>
+<!-- for configuration of worker thread state grid -->
+<!-- left upper ellipse -->
+<rectangle>
+	<start>
+		<x>645</x>
+		<y>405</y>
+	</start>
+	<height>10</height>
+	<width>15</width>
+	<color>0xE0E8C1</color>
+	<fill>1</fill>
+</rectangle> 
+<!-- right bottom ellipse --> 
+<rectangle>
+	<start>
+		<x>785</x>
+		<y>430</y>
+	</start>
+	<height>10</height>
+	<width>15</width>
+	<color>0xE0E8C1</color>
+	<fill>1</fill>
+</rectangle> 
+
+<screen>
+	<width>970</width>
+	<height>600</height>
+	<bgcolor>0xFFFFFF</bgcolor>
+	<bpp>32</bpp>
+	<fullscr>0</fullscr>
+</screen>
+
+<!-- text: thread info. -->
+<text>
+	<size>12</size>
+	<bgcolor>0x2D6E32</bgcolor>
+	<fgcolor>0xFFFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">Train Ticket. </content>
+	<start>
+		<x>75</x>
+		<y>10</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">0	</pos_mid>
+</text> 
+
+<text>
+	<size>90</size>
+	<bgcolor>0x35883B</bgcolor>
+	<fgcolor>0xFFFCFC</fgcolor>
+	<font conments="the maximum length is less than 100">font_2.ttf</font>
+	<path conments="the maximum length is less than 200">.//fonts//</path>
+	<content conments="the maximum length is less than 2000">MISC</content>
+	<start>
+		<x>437</x>
+		<y>245</y>
+	</start>
+	<!-- 0  and 1 represent a normal or middle position, respectively -->
+	<pos_mid value="the standard of middle position ">1</pos_mid>
+</text> 
+</wtsgconfiguration>
